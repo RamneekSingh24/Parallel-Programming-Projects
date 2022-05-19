@@ -1,0 +1,30 @@
+Rendering to 1024x1024 image
+Loaded scene with 1217 circles
+---------------------------------------------------------
+Initializing CUDA for CudaRenderer
+Found 1 CUDA devices
+Device 0: NVIDIA GeForce GTX 1050 Ti
+   SMs:        6
+   Global mem: 4042 MB
+   CUDA Cap:   6.1
+---------------------------------------------------------
+WARNING: You're not running on a fast GPU, please consider using NVIDIA GTX 480, 670 or 780.
+---------------------------------------------------------
+
+Running benchmark, 4 frames, beginning at frame 0 ...
+Dumping frames to output_xxx.ppm
+Copying image data from device
+Wrote image file output_0000.ppm
+Copying image data from device
+Wrote image file output_0001.ppm
+Copying image data from device
+Wrote image file output_0002.ppm
+Copying image data from device
+Wrote image file output_0003.ppm
+Clear:    0.1997 ms
+Advance:  0.0088 ms
+Render:   1.0608 ms
+Total:    1.2692 ms
+File IO:  105.7633 ms
+
+Overall:  0.4474 sec (note units are seconds)

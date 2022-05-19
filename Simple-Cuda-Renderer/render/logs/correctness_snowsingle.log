@@ -1,0 +1,27 @@
+Rendering to 1024x1024 image
+Loaded data for 100000 circles from snow.par
+Loaded scene with 100000 circles
+Loaded data for 100000 circles from snow.par
+Loaded scene with 100000 circles
+---------------------------------------------------------
+Initializing CUDA for CudaRenderer
+Found 1 CUDA devices
+Device 0: NVIDIA GeForce GTX 1050 Ti
+   SMs:        6
+   Global mem: 4042 MB
+   CUDA Cap:   6.1
+---------------------------------------------------------
+
+Running benchmark, 1 frames, beginning at frame 0 ...
+Dumping frames to output_xxx.ppm
+Copying image data from device
+Wrote image file output_0000.ppm
+Copying image data from device
+***************** Correctness check passed **************************
+Clear:    0.2026 ms
+Advance:  0.0011 ms
+Render:   22.8381 ms
+Total:    23.0419 ms
+File IO:  69.1180 ms
+
+Overall:  0.4668 sec (note units are seconds)

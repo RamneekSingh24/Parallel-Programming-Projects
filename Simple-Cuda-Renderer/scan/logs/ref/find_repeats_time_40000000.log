@@ -1,0 +1,10 @@
+---------------------------------------------------------
+Found 1 CUDA devices
+Device 0: NVIDIA GeForce GTX 1050 Ti
+   SMs:        6
+   Global mem: 4042 MB
+   CUDA Cap:   6.1
+---------------------------------------------------------
+Array size: 40000000
+Student GPU time: 88.139 ms
+Find_repeats outputs are correct!
